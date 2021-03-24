@@ -82,7 +82,7 @@
           "build/net5.0/Microsoft.AspNetCore.Components.WebAssembly.props": {}
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/5.0.2": {
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/5.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
@@ -304,6 +304,19 @@
         },
         "runtime": {
           "lib/net5.0/System.Net.Http.Json.dll": {}
+        }
+      },
+      "BlazorMovies.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": "5.0.2"
+        },
+        "compile": {
+          "bin/placeholder/BlazorMovies.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorMovies.Shared.dll": {}
         }
       }
     },
@@ -388,7 +401,7 @@
           "build/net5.0/Microsoft.AspNetCore.Components.WebAssembly.props": {}
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/5.0.2": {
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/5.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
@@ -610,6 +623,19 @@
         },
         "runtime": {
           "lib/net5.0/System.Net.Http.Json.dll": {}
+        }
+      },
+      "BlazorMovies.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": "5.0.2"
+        },
+        "compile": {
+          "bin/placeholder/BlazorMovies.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorMovies.Shared.dll": {}
         }
       }
     }
@@ -712,10 +738,10 @@
         "microsoft.aspnetcore.components.webassembly.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.WebAssembly.DevServer/5.0.2": {
-      "sha512": "L/mq/V9PKcH+wjnmxtL7qNtA8DAoYCoRT6ba+G//dIPnbanTU6KZDhuni/aj38s4BPGzBL4BTCxq069H5LMixw==",
+    "Microsoft.AspNetCore.Components.WebAssembly.DevServer/5.0.0": {
+      "sha512": "MuUiNc/kKKCsiXB0Yu7aXuUKsoQKVSX/nWRlCZnmRPUMWDvqQbO0SpjMAh2QbLUic3RpVPLKtM0nUidP5y4Xeg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.webassembly.devserver/5.0.2",
+      "path": "microsoft.aspnetcore.components.webassembly.devserver/5.0.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -723,7 +749,7 @@
         "Icon.png",
         "THIRD-PARTY-NOTICES.txt",
         "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets",
-        "microsoft.aspnetcore.components.webassembly.devserver.5.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.components.webassembly.devserver.5.0.0.nupkg.sha512",
         "microsoft.aspnetcore.components.webassembly.devserver.nuspec",
         "tools/BlazorDebugProxy/BrowserDebugHost.dll",
         "tools/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json",
@@ -736,6 +762,13 @@
         "tools/BlazorDebugProxy/Newtonsoft.Json.dll",
         "tools/Microsoft.AspNetCore.Components.WebAssembly.Server.dll",
         "tools/Microsoft.AspNetCore.Components.WebAssembly.Server.xml",
+        "tools/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tools/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "tools/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tools/Microsoft.Extensions.Options.dll",
+        "tools/Microsoft.Extensions.Primitives.dll",
         "tools/System.IO.Pipelines.dll",
         "tools/blazor-devserver.deps.json",
         "tools/blazor-devserver.dll",
@@ -1134,19 +1167,25 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BlazorMovies.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/BlazorMovies.Shared.csproj",
+      "msbuildProject": "../Shared/BlazorMovies.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "C:\\Users\\jdaniels\\source\\repos\\UdemyCourses\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
+      "BlazorMovies.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.2",
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.2",
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.0",
       "System.Net.Http.Json >= 5.0.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\jdaniels\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -1159,11 +1198,13 @@
       "outputPath": "C:\\Users\\jdaniels\\source\\repos\\UdemyCourses\\BlazorMovies\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\jdaniels\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1171,8 +1212,6 @@
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://api.nuget.org/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1202,7 +1241,7 @@
           "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[5.0.2, )"
+            "version": "[5.0.0, )"
           },
           "System.Net.Http.Json": {
             "target": "Package",
@@ -1222,7 +1261,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-            "version": "[5.0.2, 5.0.2]"
+            "version": "[5.0.4, 5.0.4]"
           }
         ],
         "frameworkReferences": {
@@ -1230,7 +1269,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
@@ -1238,17 +1277,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\jdaniels\\source\\repos\\UdemyCourses\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\jdaniels\\source\\repos\\UdemyCourses\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
-      "targetGraphs": [
-        "net5.0",
-        "net5.0/browser-wasm"
-      ]
-    }
-  ]
+  }
 }

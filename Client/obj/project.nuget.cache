@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Y23unzabaqtBLZH1kFZDi9WrcEAeoiTkJ2ZqhGWNVEfZSVY5VxLwUAgTN499KxDQ4tR8cyD5HpwYTBXbbysLgQ==",
-  "success": false,
+  "dgSpecHash": "6nDX/tyMdRn5NwR/1o5oNexlTd2C03O3nzeuY6h1IqYxAAg5gtVSA4E70AAiTl1McG36n3RvVsVBarQQtMo60A==",
+  "success": true,
   "projectFilePath": "C:\\Users\\jdaniels\\source\\repos\\UdemyCourses\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.2\\microsoft.aspnetcore.authorization.5.0.2.nupkg.sha512",
@@ -10,7 +10,7 @@
     "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\5.0.2\\microsoft.aspnetcore.components.forms.5.0.2.nupkg.sha512",
     "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.aspnetcore.components.web\\5.0.2\\microsoft.aspnetcore.components.web.5.0.2.nupkg.sha512",
     "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\5.0.2\\microsoft.aspnetcore.components.webassembly.5.0.2.nupkg.sha512",
-    "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\5.0.2\\microsoft.aspnetcore.components.webassembly.devserver.5.0.2.nupkg.sha512",
+    "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\5.0.0\\microsoft.aspnetcore.components.webassembly.devserver.5.0.0.nupkg.sha512",
     "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.aspnetcore.metadata\\5.0.2\\microsoft.aspnetcore.metadata.5.0.2.nupkg.sha512",
     "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
@@ -30,18 +30,7 @@
     "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.2\\microsoft.jsinterop.webassembly.5.0.2.nupkg.sha512",
     "C:\\Users\\jdaniels\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\jdaniels\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
-    "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.2\\microsoft.netcore.app.runtime.browser-wasm.5.0.2.nupkg.sha512"
+    "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.4\\microsoft.netcore.app.runtime.browser-wasm.5.0.4.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\jdaniels\\source\\repos\\UdemyCourses\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\jdaniels\\source\\repos\\UdemyCourses\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
-      "targetGraphs": [
-        "net5.0",
-        "net5.0/browser-wasm"
-      ]
-    }
-  ]
+  "logs": []
 }

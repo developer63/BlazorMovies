@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jdaniels\\source\\repos\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {}
+    "C:\\Users\\jdaniels\\source\\repos\\UdemyCourses\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jdaniels\\source\\repos\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
+    "C:\\Users\\jdaniels\\source\\repos\\UdemyCourses\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jdaniels\\source\\repos\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\jdaniels\\source\\repos\\UdemyCourses\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
         "projectName": "BlazorMovies.Shared",
-        "projectPath": "C:\\Users\\jdaniels\\source\\repos\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
+        "projectPath": "C:\\Users\\jdaniels\\source\\repos\\UdemyCourses\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
         "packagesPath": "C:\\Users\\jdaniels\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jdaniels\\source\\repos\\BlazorMovies\\BlazorMovies\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\jdaniels\\source\\repos\\UdemyCourses\\BlazorMovies\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\jdaniels\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,8 +28,6 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +45,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

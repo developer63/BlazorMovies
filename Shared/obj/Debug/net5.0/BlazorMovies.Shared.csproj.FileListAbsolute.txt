@@ -9,3 +9,14 @@ C:\Users\jdaniels\source\repos\BlazorMovies\BlazorMovies\Shared\obj\Debug\net5.0
 C:\Users\jdaniels\source\repos\BlazorMovies\BlazorMovies\Shared\obj\Debug\net5.0\BlazorMovies.Shared.dll
 C:\Users\jdaniels\source\repos\BlazorMovies\BlazorMovies\Shared\obj\Debug\net5.0\ref\BlazorMovies.Shared.dll
 C:\Users\jdaniels\source\repos\BlazorMovies\BlazorMovies\Shared\obj\Debug\net5.0\BlazorMovies.Shared.pdb
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Shared\bin\Debug\net5.0\BlazorMovies.Shared.deps.json
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Shared\bin\Debug\net5.0\BlazorMovies.Shared.dll
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Shared\bin\Debug\net5.0\ref\BlazorMovies.Shared.dll
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Shared\bin\Debug\net5.0\BlazorMovies.Shared.pdb
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Shared\obj\Debug\net5.0\BlazorMovies.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Shared\obj\Debug\net5.0\BlazorMovies.Shared.AssemblyInfoInputs.cache
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Shared\obj\Debug\net5.0\BlazorMovies.Shared.AssemblyInfo.cs
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Shared\obj\Debug\net5.0\BlazorMovies.Shared.csproj.CoreCompileInputs.cache
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Shared\obj\Debug\net5.0\BlazorMovies.Shared.dll
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Shared\obj\Debug\net5.0\ref\BlazorMovies.Shared.dll
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Shared\obj\Debug\net5.0\BlazorMovies.Shared.pdb

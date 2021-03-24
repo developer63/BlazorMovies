@@ -9,26 +9,6 @@
 
 <div>
     <h3>Movie</h3>
-    @if (movies == null)
-    {
-        <text>Loading...</text>
-
-    }
-    else
-    {
-        @foreach (var movie in movies)
-        {
-            <p>Title: <b>@((MarkupString)movie.Title)</b></p>
-            <p>Release Date: <b>@movie.ReleaseDate.ToString("dd MM yyyy")</b></p>
-        }
-        @for (int i = 0; i < movies.Count; i++)
-        {
-            <div style="background-color: @(i%2 ==0 ? "blue" : "red" )">
-                <p>Title: <b>@(i+1)) @movies[i].Title</b></p>
-                <p>Release Date: <b>@movies[i].ReleaseDate.ToString("dd MM yyyy")</b></p>
-            </div>
-        }
-    }
 </div>
 
 @code{

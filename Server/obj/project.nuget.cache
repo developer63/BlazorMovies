@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R4w/rAsKynXFG1qX97vA7AMMLjBhh0orB8dQSfLuCOAI+ghyqIFYS//cZgDo50emcHmhgtZ+qIfQidD04HcxiQ==",
+  "dgSpecHash": "Lk4MsmGmsuMdUmnsShyAz+9nqlp+c0fF11d0hLmvVji4UHHtq+KjqO2c828kTuKB4YDwDYeSI4EhYclZ235GvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jdaniels\\source\\repos\\BlazorMovies\\BlazorMovies\\Server\\BlazorMovies.Server.csproj",
+  "projectFilePath": "C:\\Users\\jdaniels\\source\\repos\\UdemyCourses\\BlazorMovies\\Server\\BlazorMovies.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.2\\microsoft.aspnetcore.authorization.5.0.2.nupkg.sha512",
     "C:\\Users\\jdaniels\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.2\\microsoft.aspnetcore.components.5.0.2.nupkg.sha512",

@@ -58,3 +58,11 @@ C:\Users\jdaniels\source\repos\BlazorMovies\BlazorMovies\Server\obj\Debug\net5.0
 C:\Users\jdaniels\source\repos\BlazorMovies\BlazorMovies\Server\obj\Debug\net5.0\ref\BlazorMovies.Server.dll
 C:\Users\jdaniels\source\repos\BlazorMovies\BlazorMovies\Server\obj\Debug\net5.0\BlazorMovies.Server.pdb
 C:\Users\jdaniels\source\repos\BlazorMovies\BlazorMovies\Server\obj\Debug\net5.0\BlazorMovies.Server.genruntimeconfig.cache
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Server\obj\Debug\net5.0\BlazorMovies.Server.csprojAssemblyReference.cache
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Server\obj\Debug\net5.0\BlazorMovies.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Server\obj\Debug\net5.0\BlazorMovies.Server.AssemblyInfoInputs.cache
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Server\obj\Debug\net5.0\BlazorMovies.Server.AssemblyInfo.cs
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Server\obj\Debug\net5.0\BlazorMovies.Server.csproj.CoreCompileInputs.cache
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Server\obj\Debug\net5.0\BlazorMovies.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Server\obj\Debug\net5.0\BlazorMovies.Server.RazorAssemblyInfo.cache
+C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Server\obj\Debug\net5.0\BlazorMovies.Server.RazorAssemblyInfo.cs

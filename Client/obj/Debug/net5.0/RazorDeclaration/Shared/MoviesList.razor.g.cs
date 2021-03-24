@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorMovies.Client.Pages
+namespace BlazorMovies.Client.Shared
 {
     #line hidden
     using System;
@@ -83,62 +83,26 @@ using BlazorMovies.Client.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 11 "C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Client\_Imports.razor"
+using BlazorMovies.Client.Helpers;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 12 "C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Client\_Imports.razor"
 using BlazorMovies.Shared.Entities;
 
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Client\Pages\Index.razor"
-using BlazorMovies.Client.Helpers;
-
-#line default
-#line hidden
-#nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class MoviesList : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 14 "C:\Users\jdaniels\source\repos\UdemyCourses\BlazorMovies\Client\Pages\Index.razor"
-      
-    string name = "Jim";
-
-    List<Movie> movies;
-
-    protected async override Task OnInitializedAsync()
-    {
-        await Task.Delay(3000);
-        movies = new List<Movie>()
-        {
-            new Movie() {Title = "<b>Spider-Man: Far From Home</b>", ReleaseDate = new DateTime(2019, 7, 2)},
-            new Movie() {Title = "<i>Moana</i>", ReleaseDate = new DateTime(2016, 11, 23)},
-            new Movie() {Title = "Inception", ReleaseDate = new DateTime(2010, 7, 16)}
-        };
-
-    }
-
-    Movie spiderman = new Movie
-    {
-        Title = "Spider-Man: Far From Home",
-        ReleaseDate = new DateTime(2019, 7, 2)
-    };
-
-    void WriteInLog()
-    {
-        Console.WriteLine("I've been clicked! (from method)");
-    }
-
-
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591
